@@ -88,7 +88,7 @@ function displayProduct() {
         div.className = 'card2';
         div.innerHTML = `
             <div>
-                <h4 class="text-light">>${start + index + 1}</h4>
+                <h4 class="text-light">${start + index + 1}</h4>
                 <img src="${item.image || './vidios/placeholder.jpg'}" class="imgn1" alt="Product Image">
                 <h1 class="text-light">${item.name || 'No name '}</h1>
                 <h3 class="text-light ">yoshi: ${item.age || 'No age '}</h3>
